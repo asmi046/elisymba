@@ -35,5 +35,5 @@ jobs:
          ARGS: "-rltgoDzvO --delete"
          SOURCE: "dist/"
          REMOTE_HOST: vaganol6.beget.tech
-         REMOTE_USER: dist vaganol6_ssh
+         REMOTE_USER: vaganol6_ssh
          TARGET: html.syamba-toys.ru
