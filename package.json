@@ -13,7 +13,7 @@
     "jscopy": "xcopy src\\js dist\\js /H /Y /C /R /S /I",
     "csscopy": "xcopy src\\css dist\\css /H /Y /C /R /S /I",
     "build": "npm run imgcopy && npm run fontcopy && npm run jscopy && npm run csscopy && npm run html && npm run styles",
-    "deploy": "cd dist && scp -r /dist vaganol6_ssh@vaganol6.beget.tech:html.syamba-toys.ru"
+    "deploy": "cd dist && scp -r /dist vaganol6_ssh@vaganol6.beget.tech:html.syamba-toys.ru/public_html"
   },
   "keywords": [
     "web",

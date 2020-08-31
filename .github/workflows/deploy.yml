@@ -36,4 +36,4 @@ jobs:
          SOURCE: "dist/"
          REMOTE_HOST: vaganol6.beget.tech
          REMOTE_USER: vaganol6_ssh
-         TARGET: html.syamba-toys.ru
+         TARGET: html.syamba-toys.ru/public_html
