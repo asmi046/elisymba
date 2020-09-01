@@ -4,6 +4,8 @@
   "description": "Elisymba - html",
   "main": "index.html",
   "scripts": {
+    "mediagr": "group-css-media-queries src/css/style.css src/css/style.css",
+
     "start": "browser-sync start --server src --no-notify --no-ui --cwd src --files index.html,css/**/*",
     "test": "editorconfig-checker",
     "html": "html-minifier --remove-comments --collapse-whitespace --input-dir src --output-dir dist --file-ext html",
