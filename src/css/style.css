@@ -1654,6 +1654,20 @@ body.ie .ibg img {
     padding-bottom: 93px; 
     background-size: cover;
   } 
+
+  .footer-block__pay,
+  .footer-menu {
+    display: none;
+  }
+
+  .footer-block__req div {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .footer-block  {
+    width:100%;
+  }
 }
 
 /*=============================================================*/
