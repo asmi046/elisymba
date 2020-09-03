@@ -1379,6 +1379,9 @@ body.ie .ibg img {
   line-height: 23px;
   margin-bottom: 27px; }
 
+.footer-left-title:last-child {
+  margin-bottom: 0px; }
+
 /*Среднее Меню*/
 .footer-menu {
   margin-top: 5px;
@@ -1435,7 +1438,7 @@ body.ie .ibg img {
 
 @media screen and (max-width: 1440px) {
   .footer {
-    padding-bottom: 35px; 
+    padding-bottom: 30px; 
   } 
 
   .footer-block__req div {
@@ -1445,10 +1448,10 @@ body.ie .ibg img {
 
 @media screen and (max-width: 1280px) {
   .footer {
-    padding-bottom: 30px; 
+    padding-bottom: 20px; 
   } 
   .footer-left-title {
-    font-size: 18px; 
+    /*font-size: 18px; */
   } 
   
   .footer-menu {
@@ -1458,47 +1461,48 @@ body.ie .ibg img {
   .footer-block__pay {
     max-width: 280px;
     margin-left: 15px;
-    margin-right: 0px; 
+    margin-right: 30px; 
   } 
 
   .footer-block__title {
-    font-size: 18px; } 
+    /*font-size: 18px; } */
+  }
 
   .footer-block__subtitle {
-    font-size: 18px; 
+    /*font-size: 18px; */
   } 
   .footer-block__contacts p {
-    font-size: 18px; 
+    /*font-size: 18px; */
   } 
 
   .footer-phone {
-    font-size: 30px; 
+    /*font-size: 30px; */
   } 
 }
 
 @media screen and (max-width: 1100px) {
   .footer-left-title {
-    font-size: 15px;
+    /*font-size: 15px;*/
     margin-bottom: 19.5px; } 
 
   .footer-menu a {
-    font-size: 15px; } 
+    /*font-size: 15px;*/ } 
 
   .footer-block__pay {
     margin-left: 40px;
     margin-right: 0px; } 
 
   .footer-block__title {
-    font-size: 15px; } 
+    /*font-size: 15px;*/ } 
 
   .footer-block__subtitle {
-    font-size: 16px; } 
+    /*font-size: 16px;*/ } 
 
   .footer-block__contacts p {
-    font-size: 15px; } 
+    /*font-size: 15px;*/ } 
 
   .footer-phone {
-    font-size: 25px; } 
+    /*font-size: 25px;*/ } 
 }
 
 @media screen and (max-width: 1024px) {
@@ -1507,115 +1511,143 @@ body.ie .ibg img {
     padding-bottom: 20px; } 
 
   .footer-left-title {
-    font-size: 13px;
+    /*font-size: 13px;*/
     margin-bottom: 19.5px; } 
 
   .footer-menu a {
-    font-size: 13px; } 
+    /*font-size: 13px;*/ } 
 
   .footer-block__pay {
     max-width: 250px;
-    margin-right: 5px; } 
+    margin-right: 20px; } 
 
   .footer-block__title {
-    font-size: 14px; } 
+    /*font-size: 14px;*/ } 
 
   .footer-block__subtitle {
-    font-size: 14px; } 
+    /*font-size: 14px;*/ } 
     
   .footer-block__contacts p {
-    font-size: 14px; } 
+    /*font-size: 14px;*/ } 
   .footer-phone {
-    font-size: 23px; }
+    /*font-size: 23px;*/ }
 }
 
 @media screen and (max-width: 960px) {
   
   .footer-block__subtitle {
-    font-size: 13px;
-    line-height: 16px; } 
+    /*font-size: 13px;*/
+    /*line-height: 16px;*/ } 
 
   .footer {
     padding-top: 35px;
     padding-bottom: 20px; } 
 
   .footer-left-title {
-    line-height: 18px;
-    margin-bottom: 16px; } 
+    line-height: 24px;
+    margin-bottom: 20px; } 
 
   .footer-menu {
-    margin-left: 80px; } 
+    margin-left: 50px; } 
 
   .footer-menu li {
-    margin-bottom: 4px; } 
+    margin-bottom: 10px; } 
 
   .footer-block__pay {
-    max-width: 250px;
-    margin-right: 0px; } 
+    max-width: 280px;
+    margin-right: 30px; } 
 
   .footer-block__title {
-    font-size: 14.5px; } 
+    /*font-size: 14.5px;*/ } 
 
   .footer-block__contacts p {
-    font-size: 13px;
-    line-height: 16px; } 
+    /*font-size: 13px;*/
+    /*line-height: 16px;*/ } 
 
   .footer-phone {
-    font-size: 21px; } 
+    /*font-size: 21px;*/ } 
 }
 
 @media screen and (max-width: 812px) {
   .footer {
     padding-top: 40px;
-    padding-bottom: 5px; } 
-
-  .footer-left-title {
-    line-height: 18px;
-    margin-bottom: 8px; } 
+    /*padding-bottom: 5px;*/ }
 
   .footer-menu {
-    margin-left: 55px; } 
+    margin-left: 20px; }  
+
+  .footer-left-title {
+    /*line-height: 18px;*/
+    margin-bottom: 14px; }  
 
   .footer-block__pay {
-    max-width: 250px;
-    margin-right: 30px; } 
+    max-width: 130px;
+    margin-left: 13px; }
+
+  .footer-block__title {
+     margin-bottom: 30px; }
+
+  .footer-block__subtitle {
+    line-height: 23px;
+    margin-left: 0px; }
 }
     
 @media screen and (max-width: 600px) {
+
+  .footer {
+    background-repeat: repeat;
+    background-position: center bottom; }
+
+  .footer__row {
+    flex-wrap: wrap;
+  }
+
   .footer-left-title {
-    font-size: 11px;
-    line-height: 14px;
-    margin-bottom: 11px; } 
+    /*font-size: 11px;*/
+    /*line-height: 14px;*/
+    margin-bottom: 20px; } 
 
   .footer-menu {
-    margin-left: 25px;
-    margin-top: 3px; } 
+    margin-top: 0px; } 
 
   .footer-menu li {
-    font-size: 10px;
     margin-bottom: 6px; } 
 
   .footer-block__pay {
+    margin-top: 20px;
     max-width: 250px;
     margin-right: 10px;
     margin-left: 0px; } 
 
   .footer-block__title {
-    font-size: 13px;
-    margin-bottom: 50px; } 
+    /*margin-top: 30px;*/
+    margin-bottom: 20px; } 
 
   .footer-block__subtitle {
-    font-size: 11px;
-    line-height: 16px;
+    /*font-size: 11px;*/
+    /*line-height: 16px;*/
+    margin-bottom: 35px;
     margin-left: 2px; } 
 
   .footer-block__contacts p {
-    font-size: 12.5px;
-    line-height: 16px; } }
+    /*font-size: 12.5px;*/
+    /*line-height: 16px;*/ } }
 
 @media screen and (max-width: 520px) {
 .footer {
-  padding-bottom: 158px; } }
+  padding-bottom: 158px; }
+
+ .footer-menu {
+    margin-top: 23px; }
+
+.footer-block__contacts {
+  margin-top: 35px; }
+
+.footer-left-title:last-child {
+  margin-bottom: 20px; }
+
+
+   }
 
 @media screen and (max-width: 414px) {
 .footer {
@@ -2543,6 +2575,13 @@ body.ie .ibg img {
     font-size: 13px;
     margin-top: 6px;
     margin-bottom: 18px; } }
+
+@media screen and (max-width: 600px) {
+    .product-loop {
+    width: 100%;
+    /*margin-bottom: 18px;*/ }
+
+  }
 
 /*============================================================*/
 /*=== Секция Отзывы ===*/
