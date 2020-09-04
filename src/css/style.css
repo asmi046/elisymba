@@ -1703,11 +1703,15 @@ body.ie .ibg img {
   overflow: hidden;
   padding: 155px 30px; }
 
+@media screen and (max-width: 812px) {
+  .main-bnr__item {
+    padding: 230px 0; } }
+
 @media screen and (max-width: 600px) {
   .main-bnr__item {
     height: auto;
     border-radius: 10px;
-    padding: 65px 30px; } }
+    padding: 170px 30px; } }
 
 /*Отступ ползунков Слайдера снизу*/
 .main-bnr .slick-dots {
@@ -1739,13 +1743,31 @@ body.ie .ibg img {
 
 @media screen and (max-width: 812px) {
   .main-bnr .slick-dots {
-    bottom: 115px; }
+    bottom: 10px; }
   .main-bnr {
-    margin-bottom: -160px; } }
+    margin-bottom: -50px; } }
+
+@media screen and (max-width: 768px) {
+  .main-bnr .slick-dots {
+    bottom: 35px; }
+  .main-bnr {
+    margin-bottom: -50px; } }
+
+@media screen and (max-width: 730px) {
+  .main-bnr .slick-dots {
+    bottom: 55px; }
+  .main-bnr {
+    margin-bottom: -80px; } }
+
+@media screen and (max-width: 650px) {
+  .main-bnr .slick-dots {
+    bottom: 100px; }
+  .main-bnr {
+    margin-bottom: -140px; } }
 
 @media screen and (max-width: 600px) {
   .main-bnr .slick-dots {
-    bottom: -25px; }
+    bottom: 8px; }
   .main-bnr {
     margin-bottom: -30px; } }
 
@@ -1837,19 +1859,19 @@ body.ie .ibg img {
 @media screen and (max-width: 812px) {
   .main-bnr__item .btn-wrap {
     left: 155px;
-    bottom: 110px;
+    bottom: 10px;
     width: 505px; } }
 
 @media screen and (max-width: 768px) {
   .main-bnr__item .btn-wrap {
     left: 135px;
-    bottom: 123px;
+    bottom: 35px;
     width: 505px; } }
 
 @media screen and (max-width: 730px) {
   .main-bnr__item .btn-wrap {
     left: 116px;
-    bottom: 130px;
+    bottom: 55px;
     width: 505px; } }
 
 @media screen and (max-width: 700px) {
@@ -1861,14 +1883,14 @@ body.ie .ibg img {
 @media screen and (max-width: 650px) {
   .main-bnr__item .btn-wrap {
     left: 75px;
-    bottom: 140px;
+    bottom: 100px;
     width: 505px; } }
 
 @media screen and (max-width: 600px) {
   .main-bnr__item .btn-wrap {
-    left: 128px;
+    left: 93px;
     bottom: 10px;
-    width: 300px; } }
+    width: 420px; } }
 
 /*Кнопки Слайдера*/
 .button {
@@ -1970,6 +1992,10 @@ body.ie .ibg img {
     height: auto;
     -o-object-fit: cover;
     object-fit: cover; } }
+
+@media screen and (max-width: 812px) {
+  .main-bnr__item img {
+    /*width: 100%;*/ } }
 
 /*=== Круглые Кнопки Слайдера ===*/
 .slick-dotted.slick-slider {
