@@ -3651,7 +3651,7 @@ input:checked + label {
   justify-content: space-between;
   color: #fff;
   position: relative;
-  margin: 0 10px;
+  margin: 0;
 }
 .menu-bottom li {
   position: relative;
@@ -3664,13 +3664,13 @@ input:checked + label {
 .mobile_bottom_icon:before{
   content: "";
   width: 100%;
-  height: 35px;
+  height: 41px;
   float: left;
   background-repeat: no-repeat; 
   background-position:center;
   /*background-size:contain;*/
-  background-size:52%;
-  margin-bottom: 5px;
+  background-size:55% 55%;
+  
 }
 
 .contact-svg:before {
@@ -3729,11 +3729,10 @@ input:checked + label {
 .mobile_bottom_icon.active {
   margin: 0 auto;
   width: 41px;
-  height: 38px;
+  height: 41px;
   background: #fff;
   border-radius: 50%;
   display: block;
-  padding-top: 1px;
 }
 
 @media screen and (max-width: 520px) {
