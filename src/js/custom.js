@@ -52,6 +52,21 @@ $(function () {
   })  
 });
 
+$(function () {
+  $('.contact-svg').click(function () {
+    $('.contact-svg').toggleClass('active')
+  })
+  $('.cabnet-svg').click(function () {
+    $('.cabnet-svg').toggleClass('active')
+  })
+  $('.search-svg').click(function () {
+    $('.search-svg').toggleClass('active')
+  }) 
+  $('.mobile_menu-svg').click(function () {
+    $('.mobile_menu-svg').toggleClass('active')
+  }) 
+});
+
 
 /* При нажатии кнопки, переключаться между скрытием 
 и отображением раскрывающегося содержимого */
