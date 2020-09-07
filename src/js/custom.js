@@ -46,8 +46,30 @@ icons.forEach (icon => {
 });
 
 $(function () {
-  $('.nav-icon-5').click(function () {
-    $('.menu-list').toggleClass('show-menu')
+  $('.mobile_menu-svg').click(function () {
+    $('.main-mobile-menu').toggleClass('mobile-menu')
     $('body').toggleClass('lock')
   })  
 });
+
+
+/* При нажатии кнопки, переключаться между скрытием 
+и отображением раскрывающегося содержимого */
+function myFunction() {
+    document.getElementById("submenu").classList.toggle("submenu-content");
+}
+
+// Закроется раскрывающееся меню, если щелкаем вне его
+window.onclick = function(event) {
+  if (!event.target.matches('.mobile-menu__btn')) {
+
+    var dropdowns = document.getElementsByClassName("submenu-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
