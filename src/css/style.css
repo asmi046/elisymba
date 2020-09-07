@@ -3901,9 +3901,11 @@ input:checked + label {
 .contact-submenu p {
   font-size: 20px;
   font-weight: 800;
-  margin: 15px 0 15px 0px; } }
+  margin: 15px 0 15px 0px; }
 
-
+.contact-submenu p a {
+  font-size: 20px;
+  font-weight: 800; } } 
 
  .submenu-content {
   display: none;
